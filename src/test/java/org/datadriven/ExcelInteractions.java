@@ -21,7 +21,7 @@ public static void main(String[] args) throws IOException {
 	
 	//to read data
 	FileInputStream stream = new FileInputStream(f);
-	
+	System.out.println("work done by perf");
 	//create object for Workbook
 	Workbook w = new XSSFWorkbook(stream);
 	
